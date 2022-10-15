@@ -1,6 +1,10 @@
 # Emscripten + SDL basic example
 
-## Installing Emsdk
+This project is contains very basic sample code to get started with Emscripten and SDL.
+
+Let this Readme guide you from installing emscripten to actually running this project!
+
+## Step 1: Installing Emsdk
 
 First install emsdk
 
@@ -21,7 +25,7 @@ source ./emsdk_env.sh
 Source: https://emscripten.org/docs/getting_started/downloads.html
 
 
-## Building and running
+## Step 2 and 3: Building and running
 
 Run:
 
@@ -29,7 +33,7 @@ Run:
 make build-and-serve
 ```
 
-See Makefile to see what is happening.
+See [Makefile](https://github.com/antoineMoPa/emscripten-sdl-sample-code/blob/main/Makefile) to see what is happening.
 
 Then visit: http://localhost:8000/hello.html
 
